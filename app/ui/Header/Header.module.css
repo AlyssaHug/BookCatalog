@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #243327;
+    color: #86a58b;
+}
+.large {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 16px;
+}
+.small {
+    font-size: 14px;
+    padding: 24px;
+    font-style: oblique;
+}
