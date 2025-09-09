@@ -15,7 +15,8 @@ export default function Home() {
                     value='New'></Button>
                 <Card
                     imageSrc='/images/programming.png'
-                    author='By Jonathan Bartlett'></Card>
+                    author='By Jonathan Bartlett'
+                    href='https://itbook.store/books/9781484287507'></Card>
             </div>
             <div className='footer'>
                 <Header

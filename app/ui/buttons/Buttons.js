@@ -10,7 +10,7 @@ export default function Button({
     onClick,
     href,
     alt,
-    target = "_self",
+    target = "_blank",
 }) {
     function handleClick() {
         if (href) {
