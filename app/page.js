@@ -14,7 +14,7 @@ export default function Home() {
                     size='large'
                     value='New'></Button>
                 <Card
-                    imageSrc='/programming.png'
+                    imageSrc='/images/programming.png'
                     author='By Jonathan Bartlett'></Card>
             </div>
             <div className='footer'>

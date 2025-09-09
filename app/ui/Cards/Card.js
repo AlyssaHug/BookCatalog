@@ -8,10 +8,11 @@ export default function ShopItem({ type, onClick, author, value, imageSrc }) {
         return (
             <div className={styles.container}>
                 <img src={imageSrc}></img>
-                <h3 className={styles.itemName}>{author}</h3>
+                <h3 className={styles.cardName}>{author}</h3>
                 <Button
                     onClick={onClick}
                     value='Learn More'
+                    size='small'
                 />
             </div>
         );
