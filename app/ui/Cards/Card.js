@@ -17,6 +17,7 @@ export default function ShopItem({
                 <img src={imageSrc}></img>
                 <h3 className={styles.cardName}>{author}</h3>
                 <Button
+                    className={styles.cardButton}
                     href={href}
                     onClick={onClick}
                     value='Learn More'

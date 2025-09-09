@@ -3,13 +3,26 @@
 body {
     background: #86a58b;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+main {
+    flex: 1 0 auto; /* Allows main content to grow and not shrink */
 }
 .container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 8px;
 }
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-top: 24px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: auto;
 }

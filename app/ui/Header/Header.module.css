@@ -1,6 +1,4 @@
 .header {
-    display: flex;
-    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #243327;
     color: #86a58b;
@@ -9,6 +7,8 @@
     font-size: 40px;
     font-weight: bold;
     padding: 16px;
+    display: flex;
+    justify-content: center;
 }
 .small {
     font-size: 14px;
